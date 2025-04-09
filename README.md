@@ -24,8 +24,9 @@ Creates IAM Roles and attaches the same policy to them.
 
 
 
-**📌 How to Use This Modul**e
-  Write your root Terraform file (e.g., main.tf), use the module like this:
+**📌 How to Use This Module**
+
+Write your root Terraform file (e.g., main.tf), use the module like this:
 
 module "iam" {
 
