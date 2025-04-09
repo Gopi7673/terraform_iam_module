@@ -8,6 +8,7 @@ Creates a custom IAM Policy and attaches it to all the groups.
 Creates IAM Roles and attaches the same policy to them.
 
 🧱 Folder Structure.
+
 ├── main.tf
 
 ├── variables.tf
