@@ -9,12 +9,19 @@ Creates IAM Roles and attaches the same policy to them.
 
 🧱 Folder Structure.
 ├── main.tf
+
 ├── variables.tf
+
 ├── locals.tf
+
 ├── outputs.tf (optional)
+
 ├── policies/
+
 │   ├── devops-policy.json
+
 │   └── assume-role-policy.json
+
 
 
 **📌 How to Use This Modul**e
