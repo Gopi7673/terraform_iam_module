@@ -58,11 +58,17 @@ module "iam" {
 📥 Input Variables
 **Name	              Type	                    Description**
 group_user_map	    map(list(string))	    Map of group names to user names
+
 policy_name	        string	              Name for the IAM policy
+
 policy_description	string	              Description of the policy
+
 policy_document	    string	              JSON content of the policy as a string
+
 role_names	        list(string)	        List of IAM roles to create
+
 assume_role_policy	string	              JSON string of the assume role trust policy
+
 
 
 **📤 Outputs**
